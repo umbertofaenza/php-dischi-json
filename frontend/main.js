@@ -8,7 +8,7 @@ createApp({
   },
 
   mounted() {
-    axios.get("./server.php").then((response) => {
+    axios.get("../backend/server.php").then((response) => {
       this.listaDischi = response.data;
     });
   },
